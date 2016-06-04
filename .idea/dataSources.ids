@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="pyevolve" uuid="39ed35ce-416f-4ed3-8679-eb531b6c3305">
+    <database-info product="SQLite" version="3.8.11" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="population" schema="" catalog="" type="TABLE">
+      <column name="identify" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="generation" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="individual" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="fitness" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="raw" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+    </table>
+    <table name="statistics" schema="" catalog="" type="TABLE">
+      <column name="identify" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="generation" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="rawMin" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="fitAve" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="fitMin" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="rawVar" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="rawDev" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="rawAve" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="fitMax" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="rawMax" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+    </table>
+  </data-source>
+  <data-source name="example" uuid="f3dd50fe-fe98-42ab-a5ac-ded6fddd15f4">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+    <schema name="" catalog=""/>
+    <table name="stocks" schema="" catalog="" type="TABLE">
+      <column name="date" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="trans" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="symbol" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="qty" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="price" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+    </table>
+  </data-source>
+</component>
